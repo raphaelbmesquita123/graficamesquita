@@ -1,0 +1,24 @@
+.stickMenu{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: rgb(247, 247, 247);
+    padding: 10px;
+}
+
+.stickMenu img{
+    width: auto;
+    height: 40px;
+}
+
+.stickMenuButtons{
+    display: flex;
+}
+
+@media only screen and (max-width: 850px){
+    .stickMenuButtons{
+        display: none;
+    }
+}

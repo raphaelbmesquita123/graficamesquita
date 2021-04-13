@@ -1,0 +1,15 @@
+.socialMediaIcons{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px; 
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+}
+
+.socialMediaIcons:hover{
+    background-color:rgb(230, 230, 230) ;
+}
+
+.socialMediaIcons small{
+    margin-left: 5px;
+}

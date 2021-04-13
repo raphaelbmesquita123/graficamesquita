@@ -1,0 +1,40 @@
+.messageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb( 240,240,240);
+    height: 120px;
+}
+
+.messageContainer h1{
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.messageContainer span{
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+.messageContainer span:nth-child(1){
+    color: rgb(0, 128, 32);
+    transform: rotate(-5deg);
+}
+
+.messageContainer span:nth-child(2){
+    color: rgb(1, 93, 129);
+    transform: rotate(5deg);
+    margin-left:5px;
+}
+
+@media only screen and (max-width: 500px){
+    .messageContainer h1 {
+
+    }
+    .messageContainer span{
+
+    }
+}

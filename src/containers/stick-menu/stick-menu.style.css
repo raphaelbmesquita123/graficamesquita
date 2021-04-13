@@ -1,6 +1,7 @@
 .stickMenu{
     display: flex;
-    position: relative;
+    position: sticky;
+    top:0;
     justify-content: space-around;
     align-items: center;
     width: 100%;

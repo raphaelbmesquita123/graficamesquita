@@ -1,3 +1,6 @@
+.oi{
+    display: none;
+}
 .burguerClose{
     position: absolute;
     top: 50%;
@@ -82,3 +85,8 @@
     font-size: 35px;
 }
 
+@media only screen and (max-width: 800px){
+    .oi{
+        display: flex;
+    }
+}

@@ -1,12 +1,12 @@
 .stickMenu{
     display: flex;
     position: sticky;
-    justify-content: center;
-    top:0;
-    z-index: 2;
+    justify-content: space-around;
+    top: 0;
+    z-index: 4;
+    background-color: rgb( 240,240,240);
     align-items: center;
     width: 100%;
-    background-color: rgb( 240,240,240);
     padding: 10px;
 }
 
@@ -15,4 +15,19 @@
     height: 40px;
 }
 
+.hamburguerButton{
+    display: none;
+}
 
+.stickMenuItens{
+    display: flex;
+}
+
+@media only screen and (max-width: 800px){
+    .stickMenu{
+        justify-content: center;
+    }
+    .stickMenuItens {
+        display: none;
+    }
+}

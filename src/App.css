@@ -6,4 +6,5 @@
     box-sizing: border-box;
     font-family: 'Cairo', 'Arial';
     letter-spacing: 1px;
+    scroll-behavior: smooth;
 }

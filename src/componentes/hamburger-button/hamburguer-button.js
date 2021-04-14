@@ -26,7 +26,7 @@ function HamburguerButton() {
                         <MenuButtons text="HOME" id="#" />
                     </div> 
                     <div onClick={ showSidebar }> 
-                        <MenuButtons text="SERVICOS" id="#" />
+                        <MenuButtons text="SERVICOS" id="#jobs" />
                     </div> 
                     <div onClick={ showSidebar }> 
                         <MenuButtons text="NOSSA HISTORIA" id="#"/>

@@ -5,7 +5,7 @@ import './social-media-icons.style.css'
 const SocialMediaIcons = ( { socialMedia, text, href } ) => {
     return (
         <div>
-            <a className="socialMediaIcons" href={ href }>
+            <a className="socialMediaIcons" href={ href } target="_blank">
                 <i className={ socialMedia }></i>
                 <small>{ text }</small>
             </a>

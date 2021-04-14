@@ -1,11 +1,12 @@
 .stickMenu{
     display: flex;
     position: sticky;
+    justify-content: center;
     top:0;
-    justify-content: space-around;
+    z-index: 2;
     align-items: center;
     width: 100%;
-    background: rgb(247, 247, 247);
+    background-color: rgb( 240,240,240);
     padding: 10px;
 }
 
@@ -14,12 +15,4 @@
     height: 40px;
 }
 
-.stickMenuButtons{
-    display: flex;
-}
 
-@media only screen and (max-width: 850px){
-    .stickMenuButtons{
-        display: none;
-    }
-}

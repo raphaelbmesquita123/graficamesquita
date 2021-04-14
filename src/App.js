@@ -12,6 +12,9 @@ function App() {
       <StickMenu />
       <AutoImageContainer />
       <MessageContainer />
+      <MessageContainer />
+      <MessageContainer />
+      <MessageContainer />
     </div>
   );
 }

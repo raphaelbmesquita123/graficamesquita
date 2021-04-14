@@ -6,7 +6,7 @@ const SocialMediaIcons = ( { socialMedia, text, href } ) => {
     return (
         <div>
             <a className="socialMediaIcons" href={ href }>
-                <i class={ socialMedia }></i>
+                <i className={ socialMedia }></i>
                 <small>{ text }</small>
             </a>
             

@@ -1,35 +1,49 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
+import MenuButtons from '../menu-buttons/menu-buttons'
 import './hamburguer-button.style.css'
 
-function checkedTrueFalse () {
-    const checkedOrNot = document.querySelector('.hamburguerButton input')
-    if(checkedOrNot.checked === true){
-        console.log('true')
-        return true
-    } else {
-        console.log('false')
-        return false
-    }
-}
 
-class HamburguerButton extends Component {
-    constructor (props){
-        super(props)
-        this.state = {
-            checked: false
-        }
-    }
+function HamburguerButton() {
 
-    render() {
-        return (
-            <div className="hamburguerButton">
-                <input type="checkbox" onClick={ checkedTrueFalse }></input>
+    const [sidebar, setSidebar] = useState(false)
+    const showSidebar = () => setSidebar(!sidebar)
+          
+
+    return(
+        <div>
+            <div className="burguerClose" onClick={ showSidebar }>
                 <span></span>
                 <span></span>
                 <span></span>
+            </div> 
+            <div>
+                <div className={sidebar ? 'hamburguerMenuVisble' : 'hamburguerMenu'}>
+                <div className="burguerOpen" onClick={ showSidebar }>
+                    <span></span>
+                    <span></span>
+                </div>
+                    <div onClick={ showSidebar }> 
+                        <MenuButtons text="HOME" id="#" />
+                    </div> 
+                    <div onClick={ showSidebar }> 
+                        <MenuButtons text="SERVICOS" id="#" />
+                    </div> 
+                    <div onClick={ showSidebar }> 
+                        <MenuButtons text="NOSSA HISTORIA" id="#"/>
+                    </div> 
+                    <div onClick={ showSidebar }> 
+                        <MenuButtons text="CLIENTES" id="#"/>
+                    </div> 
+                    <div onClick={ showSidebar }> 
+                        <MenuButtons text="CONTATO" id="#"/>
+                    </div> 
+                </div>
             </div>
-        )
-    }
+        </div>
+        
+    )
 }
+   
 
 export default HamburguerButton
+

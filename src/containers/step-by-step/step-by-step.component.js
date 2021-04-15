@@ -4,7 +4,7 @@ import emailAnimation from './emailAnimation.json'
 import downloadAnimation from './downloadAnimation.json'
 import gearAnimation from './gearAnimation.json'
 import deliveryAnimation from './deliveryAnimation.json'
-import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import { Player } from '@lottiefiles/react-lottie-player';
 
 
 function StepByStep () {

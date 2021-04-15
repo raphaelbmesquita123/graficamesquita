@@ -15,7 +15,7 @@ const StickMenu = () => {
                 <MenuButtons color="black" text="SERVICOS" id="#jobs" />
                 <MenuButtons color="black" text="NOSSA HISTORIA" id="#"/>
                 <MenuButtons color="black" text="CLIENTES" id="#"/>
-                <MenuButtons color="black" text="CONTATO" id="#"/>
+                <MenuButtons color="black" text="CONTATO" id="#contactForm"/>
             </div>
         </div>
     )

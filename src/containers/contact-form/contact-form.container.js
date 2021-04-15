@@ -20,7 +20,7 @@ function ContactForm () {
 
 
     return(
-        <div className="contactForm" >
+        <div className="contactForm" id="contactForm">
             <form className="formInputs" onSubmit={sendEmail}>
                 <label>Name</label>
                 <input type="text" name="name" required/>

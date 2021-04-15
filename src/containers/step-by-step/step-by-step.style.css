@@ -16,7 +16,7 @@
     margin-top: 40px;
 }
 
-.stepByStepIcons div{
+.stepByStepIcons > div{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,12 +24,10 @@
     position: relative;
     min-width: 250px;
     margin: 30px 20px;
-    padding: 10px 0px;
+    padding: 10px 40px;
     border-radius: 10px;
-}
-
-.stepByStepIcons div:hover{
-    background-color: rgba(230,230,230);
+    background: linear-gradient(15deg, rgba(238,238,238,1) 0%, rgba(254,254,254,1) 25%, rgba(239,239,239,1) 45%, rgba(246,246,246,1) 63%, rgba(244,244,244,1) 79%, rgba(255,255,255,1) 100%);
+    box-shadow: -4px 4px 8px rgba(167, 167, 167, 0.1);
 }
 
 .stepByStepIcons div h3{

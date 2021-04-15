@@ -1,9 +1,9 @@
 import React from 'react';
 import './step-by-step.style.css'
-import emailAnimation from './emailAnimation.json'
-import downloadAnimation from './downloadAnimation.json'
-import gearAnimation from './gearAnimation.json'
-import deliveryAnimation from './deliveryAnimation.json'
+import emailAnimation from './json-files/emailAnimation.json'
+import downloadAnimation from './json-files/downloadAnimation.json'
+import gearAnimation from './json-files/gearAnimation.json'
+import deliveryAnimation from './json-files/deliveryAnimation.json'
 import { Player } from '@lottiefiles/react-lottie-player';
 
 
@@ -54,7 +54,7 @@ function StepByStep () {
                         style={{ height: '150px', width: '200px' }}
                         >
                     </Player>
-                    <small>Aguarde o recebimento</small>
+                    <small>Aguarde a entrega</small>
                 </div>
             </div>
             

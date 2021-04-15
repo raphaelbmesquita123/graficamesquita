@@ -12,9 +12,9 @@ function ContactForm () {
         emailjs.sendForm('service_xfskimn', 'template_a3j93kc', e.target, 'user_b3vLK4nmsJDCovCRtPpoB')
           .then((result) => {
             setShowBanner(true)
-              console.log(result.text);
+            console.log(result.text);
           }, (error) => {
-              console.log(error.text);
+            console.log(error.text);
           });
       }
 

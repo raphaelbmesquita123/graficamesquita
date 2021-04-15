@@ -4,6 +4,7 @@ import AutoImageContainer from './containers/auto-image-container/auto-image-con
 import Jobs from './containers/jobs/jobs.container'
 import MessageContainer from './containers/message-container/message-container'
 import ContactForm from './containers/contact-form/contact-form.container'
+import StepByStep from './containers/step-by-step/step-by-step.component'
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <AutoImageContainer />
       <MessageContainer />
       <Jobs />
+      <StepByStep />
       <ContactForm />
     </div>
   );

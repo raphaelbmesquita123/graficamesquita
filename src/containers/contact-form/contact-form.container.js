@@ -1,20 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
+import FormBanner from '../../components/form-banner/form-banner'
 import emailjs from 'emailjs-com';
 
 import './contact-form.style.css'
 
 function ContactForm () {
+    const [showBanner, setShowBanner] = useState(false)
 
     function sendEmail(e) {
         e.preventDefault();
-    
         emailjs.sendForm('service_xfskimn', 'template_a3j93kc', e.target, 'user_b3vLK4nmsJDCovCRtPpoB')
           .then((result) => {
+            setShowBanner(true)
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
           });
       }
+
 
     return(
         <div className="contactForm" >
@@ -44,7 +47,9 @@ function ContactForm () {
 
                 <input type="submit" value="Enviar"/>
             </form>
-
+            {
+                showBanner? <div onClick={() => setShowBanner(false)}> <FormBanner/> </div> : undefined
+            }
         </div>
     )
 }

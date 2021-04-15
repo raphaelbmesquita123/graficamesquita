@@ -1,7 +1,7 @@
 import React from 'react'
-import HamburguerButton from '../../componentes/hamburger-button/hamburguer-button'
+import HamburguerButton from '../../components/hamburger-button/hamburguer-button'
 import './stick-menu.style.css'
-import MenuButtons from '../../componentes/menu-buttons/menu-buttons'
+import MenuButtons from '../../components/menu-buttons/menu-buttons'
 import GraficaLogo from '../../imagens/grafica-mesquita-logo.png'
 
 const StickMenu = () => {

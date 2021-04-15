@@ -1,6 +1,6 @@
 import React from 'react'
 import './jobs.style.css'
-import ImageBox from '../../componentes/image-box/image-box'
+import ImageBox from '../../components/image-box/image-box'
 
 function Jobs () {
     return (

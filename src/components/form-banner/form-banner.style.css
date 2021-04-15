@@ -1,0 +1,39 @@
+.formBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.7);
+}
+.formBanner > div{
+    width: 300px;
+
+    padding: 20px;
+    background: linear-gradient(15deg, rgba(6,115,0,1) 0%, rgba(0,151,255,1) 100%);
+    color: white;
+    text-align: center;
+}
+.formBanner h2,
+.formBanner span{
+    text-shadow: -2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.bannerContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.bannerContact .socialMediaIcons{
+    color: white;
+    font-size: 20px;
+}

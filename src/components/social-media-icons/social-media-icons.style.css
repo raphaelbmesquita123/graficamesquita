@@ -6,6 +6,10 @@
     font-size: 0.8rem;
 }
 
+.socialMediaIcons:hover{
+    color: #313393;
+}
+
 .socialMediaIcons small{
     margin-left: 5px;
 }

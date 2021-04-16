@@ -36,3 +36,9 @@ h2:after{
     margin-top: 5px;
     right: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .stepByStep h2{
+        font-size: 1.5rem;
+    }
+}

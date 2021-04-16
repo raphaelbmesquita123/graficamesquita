@@ -32,7 +32,7 @@ function StepByStep () {
                         style={{ height: '150px', width: '200px' }}
                         >
                     </Player>
-                    <small>Orcamento aprovado, <br></br>nos envie o arquivo</small>
+                    <small>Orcamento aprovado, nos envie o arquivo</small>
                 </div>
                 <div>
                     <h3>Etapa 3</h3>

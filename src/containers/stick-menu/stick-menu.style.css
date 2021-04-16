@@ -3,11 +3,13 @@
     position: sticky;
     justify-content: space-around;
     top: 0;
-    z-index: 1;
-    background-color: rgb( 240,240,240);
+    z-index: 10;
+    background: linear-gradient(15deg, rgba(238,238,238,1) 0%, rgba(254,254,254,1) 25%, rgba(239,239,239,1) 45%, rgba(246,246,246,1) 63%, rgba(244,244,244,1) 79%, rgba(255,255,255,1) 100%);
+    box-shadow: -4px 4px 8px rgba(167, 167, 167, 0.1);
     align-items: center;
     width: 100%;
     padding: 10px;
+    box-shadow: -4px 4px 4px rgba(184, 184, 184, 0.1);
 }
 
 .stickMenu img{

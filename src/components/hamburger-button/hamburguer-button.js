@@ -29,7 +29,7 @@ function HamburguerButton() {
                         <MenuButtons text="SERVICOS" id="#jobs" />
                     </div> 
                     <div onClick={ showSidebar }> 
-                        <MenuButtons text="NOSSA HISTORIA" id="#"/>
+                        <MenuButtons text="NOSSA HISTORIA" id="#ourHistory"/>
                     </div> 
                     <div onClick={ showSidebar }> 
                         <MenuButtons text="CLIENTES" id="#"/>

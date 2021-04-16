@@ -7,7 +7,6 @@ function FormBanner () {
         <div className="formBanner">
         <div>
             <h2>Obrigado pela sua mensagem</h2>
-            <small>Voce tambem pode nos contactar via:</small>
             <div className="bannerContact">
                 <SocialMediaIcons socialMedia="fa fa-instagram" text="editoramesquita" href="https://www.facebook.com/editoramesquita"/>
                 <SocialMediaIcons socialMedia="fa fa-facebook" text="graficamesquita" href="https://www.instagram.com/graficamesquita"/>

@@ -1,6 +1,7 @@
 
 .ourHistory{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -9,7 +10,7 @@
     background-color: #313393;
 }
 
-.skewed{
+.skewedBotton{
     position: absolute;
     background-color: #313393;
     width: 100%;
@@ -18,6 +19,17 @@
     transform: skewY(3deg);
     transform-origin: top right;
     box-shadow: -2px 15px 15px rgba(82, 82, 82, 0.4);
+}
+
+.skewedTop{
+    position: absolute;
+    background-color: #313393;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    transform: skewY(3deg);
+    transform-origin: top right;
+    box-shadow: -2px -15px 15px rgba(82, 82, 82, 0.4);
 }
 
 .ourHistory h2{
@@ -34,16 +46,40 @@
 
 .ourHistoryContent{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 60px;
-    width: 50%;
+    width: 100%;
     min-width: 320px;
-    max-width: 900px;
-    z-index: 2;
-    background-color: salmon;
+    max-width: 700px;
+    overflow: hidden;
 }
 
+.ourHistoryContent > div{
+    display: flex;
+    transform: translateX(0%);
+    transition: transform 0.8s ease-in-out;
+}
+
+.ourHistoryContent i{
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.fa-chevron-left{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.fa-chevron-right{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
 
 
 

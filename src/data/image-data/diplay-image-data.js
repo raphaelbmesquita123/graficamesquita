@@ -1,8 +1,11 @@
 import foto1 from './image/foto1.jpeg'
 import foto2 from './image/foto2.jpeg'
 import foto3 from './image/foto3.jpeg'
+import promo1 from './image-promotion/promo1.jpg'
+import promo2 from './image-promotion/promo2.jpg'
+import promo3 from './image-promotion/promo3.jpg'
 
-const IMAGE_DATA = [
+export const IMAGE_DATA = [
       {
         id: 1,
         imageUrl: foto1,
@@ -26,4 +29,20 @@ const IMAGE_DATA = [
       }
 ]
 
-export default IMAGE_DATA
+export const PROMO_IMAGE_DATA = [
+  {
+    id: 1,
+        imageUrl: promo1,
+        alt: 'promo1'
+  },
+  {
+    id: 2,
+        imageUrl: promo2,
+        alt: 'promo2'
+  },
+  {
+    id: 3,
+        imageUrl: promo3,
+        alt: 'promo3'
+  }
+]

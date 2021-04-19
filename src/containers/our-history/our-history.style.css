@@ -21,17 +21,6 @@
     box-shadow: -2px 15px 15px rgba(82, 82, 82, 0.4);
 }
 
-.skewedTop{
-    position: absolute;
-    background-color: #313393;
-    width: 100%;
-    height: 80px;
-    top: 0px;
-    transform: skewY(3deg);
-    transform-origin: top right;
-    box-shadow: -2px -15px 15px rgba(82, 82, 82, 0.4);
-}
-
 .ourHistory h2{
     color: white;
 }
@@ -50,15 +39,32 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 60px;
-    width: 100%;
     min-width: 320px;
     max-width: 700px;
     overflow: hidden;
 }
 
-.ourHistoryContent > div{
+.slideDisplay{
     display: flex;
+    background-color: rgb(255, 166, 0);
+    width: 100%;
     transform: translateX(0%);
+    transition: transform 0.8s ease-in-out;
+}
+
+.ourHistoryText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    overflow: hidden;
+}
+
+.ourHistoryText div{
+    display: flex;
+    border: 2px solid pink;
+    justify-content: center;
+    align-items: center;
     transition: transform 0.8s ease-in-out;
 }
 

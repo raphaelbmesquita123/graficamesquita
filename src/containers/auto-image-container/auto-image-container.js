@@ -7,16 +7,7 @@ import './auto-image-container.style.css'
 
 
 const AutoImageContainer = () => {
-    function autoPlay () {
-        let translateX = 100
-
-        setInterval( () => {
-            translateX += -100
-            console.log(translateX)
-        }, 1000)
-        return translateX
-    }
-
+    
     return (
         <div className="autoImageContainer">
             <div className="autoPlayContainer" >

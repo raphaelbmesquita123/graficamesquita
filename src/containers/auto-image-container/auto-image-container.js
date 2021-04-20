@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { PROMO_IMAGE_DATA } from '../../data/image-data/diplay-image-data'
 import './auto-image-container.style.css'
 
@@ -8,14 +8,17 @@ import './auto-image-container.style.css'
 const AutoImageContainer = () => {
     const [translateX, setTranslateX] = useState(0)
 
-    setInterval(() =>{
-        setTranslateX(translateX - 100)
-    },5000)
+    useEffect(() => {
+    const interval = setInterval(() => {
+        setTranslateX(translate => translate - 100);
+    }, 3500);
+    return () => clearInterval(interval);
+    }, []);
 
     if(translateX < -200){
         setTranslateX(0)
     }
-    
+
     return (
         <div className="autoImageContainer">
             <div className="autoPlayContainer" >
@@ -31,3 +34,4 @@ const AutoImageContainer = () => {
 }
 
 export default AutoImageContainer
+

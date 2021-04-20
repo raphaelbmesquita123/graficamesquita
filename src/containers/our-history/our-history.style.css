@@ -119,7 +119,9 @@
 }
 
 @media(max-width: 600px ){
+    
     .ourHistoryContent{
+        width: 100%;
         height: 300px
     }
 

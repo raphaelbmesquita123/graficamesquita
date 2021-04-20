@@ -40,17 +40,17 @@ export const OUR_HISTORY_IMAGE_DATA = [
 
 export const PROMO_IMAGE_DATA = [
   {
-    id: 1,
+        id: 1,
         imageUrl: promo1,
         alt: 'promo1'
   },
   {
-    id: 2,
+        id: 2,
         imageUrl: promo2,
         alt: 'promo2'
   },
   {
-    id: 3,
+       id: 3,
         imageUrl: promo3,
         alt: 'promo3'
   }

@@ -7,7 +7,9 @@ function OurHistory () {
     const [nextPhoto, setNextPhoto] = useState(0)
     const goLeftPhoto = () => setNextPhoto(nextPhoto + 100)
     const goRightPhoto = () => setNextPhoto(nextPhoto - 100)
-
+    if(nextPhoto > 0 || nextPhoto < -300){
+        setNextPhoto(0)
+    }
     return(
         <div className="ourHistory" id="ourHistory">
 
@@ -21,7 +23,9 @@ function OurHistory () {
                 {
                     OUR_HISTORY_IMAGE_DATA.map(item => {
                         return(
-                        <div style={{backgroundImage: `url(${item.imageUrl})` ,
+                        <div 
+                        key={item.id}
+                        style={{backgroundImage: `url(${item.imageUrl})` ,
                         transform: `translateY(${nextPhoto}%)` }} />                      
                         )
                     })
@@ -33,7 +37,9 @@ function OurHistory () {
                 {
                     OUR_HISTORY_IMAGE_DATA.map(item => {
                         return(
-                        <div style={{transform: `translateY(${nextPhoto}%)` }} > 
+                        <div 
+                        key={item.id}
+                        style={{transform: `translateY(${nextPhoto}%)` }} > 
                             <h4>{item.year}</h4>
                             <span>{item.text}</span>
                         </div>                    
@@ -46,10 +52,7 @@ function OurHistory () {
                 
             <i className="fas fa-chevron-left" onClick={ goLeftPhoto }/>
             <i className="fas fa-chevron-right" onClick= { goRightPhoto } />
-            </div>
-
-            <div className="skewedBotton"></div>
-            
+            </div>            
         </div>  
     )
 }

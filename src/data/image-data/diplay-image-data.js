@@ -19,21 +19,21 @@ export const OUR_HISTORY_IMAGE_DATA = [
         id: 2,
         imageUrl: photo2,
         year: 2005,
-        text: 'Primeira grafica em 1992 no bairro sao caetano, apos a chegada de minas bla bla bla bla '
+        text: 'bla bla bla blabla bla bla blabla bla bla bla'
       },
 
       {
         id: 3,
         imageUrl: photo3,
         year: 2008,
-        text: 'sao caetano, apos a chegada de minas bla bla bla bla '
+        text: 'bla bla bla blabla bla bla blabla bla bla bla'
       },
 
       {
         id: 4,
         imageUrl: photo4,
         year: 2015,
-        text: 'Primeira grafica em 1992  apos a chegada de minas bla bla bla bla '
+        text: 'bla bla bla blabla bla bla blabla bla bla bla'
       }
 
 ]

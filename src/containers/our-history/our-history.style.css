@@ -37,7 +37,7 @@
     position: relative;
     width: 70%;
     min-width: 320px;
-    max-width: 1100px;
+    max-width: 950px;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -63,7 +63,7 @@
 
 .ourHistoryText{
     position: absolute;
-    bottom: -20px;
+    bottom: -10px;
     right: -20px;
     width: 200px;
     height: 200px;
@@ -100,15 +100,10 @@
     right: 30px;
 }
 
-@media(max-width: 1500px ){
-    .ourHistoryContent{
-        height: 500px
-    }
-}
 
 @media(max-width: 1100px ){
     .ourHistoryContent{
-        height: 400px
+        height: 450px
     }
     .ourHistoryContent i{
         font-size: 50px;

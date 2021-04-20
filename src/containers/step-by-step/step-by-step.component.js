@@ -10,7 +10,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 function StepByStep () {
     return(
         <div className="stepByStep">
-            <h2>Processo de producao</h2>
+            <h2>Processo de produção</h2>
             <div className="stepByStepIcons">
                 <div>
                     <h3>Etapa 1</h3>

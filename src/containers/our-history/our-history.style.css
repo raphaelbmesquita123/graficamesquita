@@ -8,6 +8,7 @@
     position: relative;
     padding: 50px 20px;
     background-color: #313393;
+    width: 100%;
 }
 
 .skewedBotton{
@@ -52,20 +53,36 @@
     transition: transform 0.8s ease-in-out;
 }
 
+.slideDisplay img{
+    width: 100%;
+    height: auto;
+}
+
 .ourHistoryText{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: greenyellow;
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    min-width: 280px;
+    max-width: 600px;
+    height: 100px;
     overflow: hidden;
+    z-index: 2;
 }
 
 .ourHistoryText div{
     display: flex;
-    border: 2px solid pink;
+    height: 100%;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    transition: transform 0.8s ease-in-out;
+    transform: translateY(-100%);
+    transition: all 1s ease-in-out;
+    background: black;
+    color: white;
+}
+
+.ourHistoryText div small{
+    margin-left: 20px;
 }
 
 .ourHistoryContent i{

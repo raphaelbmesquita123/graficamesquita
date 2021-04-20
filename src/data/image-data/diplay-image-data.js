@@ -1,32 +1,41 @@
-import foto1 from './image/foto1.jpeg'
-import foto2 from './image/foto2.jpeg'
-import foto3 from './image/foto3.jpeg'
+import photo1 from './image/photo1.jpeg'
+import photo2 from './image/photo2.jpeg'
+import photo3 from './image/photo3.jpeg'
+import photo4 from './image/photo4.jpg'
 import promo1 from './image-promotion/promo1.jpg'
 import promo2 from './image-promotion/promo2.jpg'
 import promo3 from './image-promotion/promo3.jpg'
 
-export const IMAGE_DATA = [
+export const OUR_HISTORY_IMAGE_DATA = [
       {
         id: 1,
-        imageUrl: foto1,
+        imageUrl: photo1,
         alt: 'Grafica 1992',
         year: 1992,
-        text: 'Primeira grafica em 1992 no bairro sao caetano, apos a chegada de minas bla bla bla bla '
+        text: 'bla bla bla blabla bla bla blabla bla bla bla'
       },
 
       {
         id: 2,
-        imageUrl: foto2,
+        imageUrl: photo2,
         year: 2005,
         text: 'Primeira grafica em 1992 no bairro sao caetano, apos a chegada de minas bla bla bla bla '
       },
 
       {
         id: 3,
-        imageUrl: foto3,
+        imageUrl: photo3,
         year: 2008,
-        text: 'Primeira grafica em 1992 no bairro sao caetano, apos a chegada de minas bla bla bla bla '
+        text: 'sao caetano, apos a chegada de minas bla bla bla bla '
+      },
+
+      {
+        id: 4,
+        imageUrl: photo4,
+        year: 2015,
+        text: 'Primeira grafica em 1992  apos a chegada de minas bla bla bla bla '
       }
+
 ]
 
 export const PROMO_IMAGE_DATA = [

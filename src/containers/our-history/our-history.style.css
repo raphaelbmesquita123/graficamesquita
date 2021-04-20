@@ -5,7 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
     padding: 50px 20px;
     background-color: #313393;
     width: 100%;
@@ -35,59 +34,56 @@
 }
 
 .ourHistoryContent{
-    display: flex;
     position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 60px;
+    width: 70%;
     min-width: 320px;
-    max-width: 700px;
-    overflow: hidden;
-}
-
-.slideDisplay{
+    max-width: 1100px;
+    height: 700px;
     display: flex;
-    background-color: rgb(255, 166, 0);
-    width: 100%;
-    transform: translateX(0%);
-    transition: transform 0.8s ease-in-out;
+    flex-direction: column;
+    margin-top: 50px;
+    z-index: 2;
 }
 
-.slideDisplay img{
+.ourHistoryImage{
     width: 100%;
-    height: auto;
+    height: 100%;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.ourHistoryImage div{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: all 1s ease-in-out;
 }
 
 .ourHistoryText{
     position: absolute;
-    bottom: 0;
-    width: 70%;
-    min-width: 280px;
-    max-width: 600px;
-    height: 100px;
+    bottom: -20px;
+    right: -20px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
-    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 
 .ourHistoryText div{
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-100%);
+    padding: 10px;
     transition: all 1s ease-in-out;
-    background: black;
-    color: white;
-}
-
-.ourHistoryText div small{
-    margin-left: 20px;
 }
 
 .ourHistoryContent i{
     position: absolute;
-    font-size: 100px;
+    font-size: 70px;
     color: white;
     opacity: 0.2;
     cursor: pointer;
@@ -95,14 +91,52 @@
 .fa-chevron-left{
     top: 50%;
     transform: translateY(-50%);
-    left: 10px;
+    left: 30px;
 }
 
 .fa-chevron-right{
     top: 50%;
     transform: translateY(-50%);
-    right: 10px;
+    right: 30px;
 }
 
+@media(max-width: 1500px ){
+    .ourHistoryContent{
+        height: 500px
+    }
+}
 
+@media(max-width: 1100px ){
+    .ourHistoryContent{
+        height: 400px
+    }
+    .ourHistoryContent i{
+        font-size: 50px;
+    }
 
+    .ourHistoryText{
+        position: relative;
+        bottom: 0px;
+        right:  0px;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 600px ){
+    .ourHistoryContent{
+        height: 300px
+    }
+
+    .ourHistoryContent i{
+        font-size: 30px;
+    }
+
+    .fa-chevron-left{
+        left: 10px;
+    }
+    
+    .fa-chevron-right{
+        right: 10px;
+    }
+}

@@ -41,28 +41,11 @@
     display: none;
 }
 
-.autoPlayContainer{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 400px;
-    min-width: 320px;
-    overflow: hidden;
-}
-
-.autoPlayContainer img{
-    transition: transform 0.8s ease-in-out;
-    height: 100%;
-    width:100%;
-}
-
 @media (max-width: 1000px){
     .autoImageContainer{
         background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../../data/image-data//image//grafica-mesquita1.jpg) ;
     }
-    .autoPlayContainer{
-        height: 300px;
-    }
+
 }
 
 @media (max-width: 800px){
@@ -70,17 +53,10 @@
         background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../../data/image-data//image//grafica-mesquita2.jpg) ;
         background-size: auto;
     }
-    .autoPlayContainer{
-        height: 200px;
-    }
 }
 
 
 @media (max-width: 550px){
-    .autoPlayContainer{
-        height: 130px;
-    }
-
     .topAutoImage > div{
         width: 90%;
         top: 45%;

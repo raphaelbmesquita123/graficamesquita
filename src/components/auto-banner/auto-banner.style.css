@@ -1,0 +1,33 @@
+.autoPlayBanner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    min-width: 320px;
+    overflow: hidden;
+}
+
+.autoPlayBanner img{
+    transition: transform 0.8s ease-in-out;
+    height: 100%;
+    width:100%;
+}
+
+@media (max-width: 1000px){
+    .autoPlayBanner{
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px){
+    .autoPlayBanner{
+        height: 200px;
+    }
+}
+
+@media (max-width: 550px){
+    .autoPlayBanner{
+        height: 150px;
+        background-color: lightgreen;
+    }
+}

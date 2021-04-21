@@ -22,10 +22,11 @@ const AutoImageContainer = () => {
             <div className="topAutoImage"> 
                 <div>
                     <h2>Gráfica e Editora Mesquita</h2>
-                    <span>QUALIDADE, CONFIANÇA E INOVAÇÃO</span>
+                    <small>QUALIDADE, CONFIANÇA E INOVAÇÃO</small>
                     <small>sempre buscando o que há de mais novo no mercado para lhe atender</small>
                 </div>
-            </div>       
+            </div>    
+
             <div className="autoPlayContainer" >
             {   
                 PROMO_IMAGE_DATA.map(item => 

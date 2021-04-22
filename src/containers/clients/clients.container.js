@@ -18,7 +18,7 @@ function Clients () {
     }
 
     return(
-        <div className="clients">
+        <div className="clients" id="clients">
             <div style={{ right: `${slideImage}%` }}>
                 {
                     CLIENT_IMAGE_DATA.map(client => {

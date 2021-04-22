@@ -10,6 +10,7 @@ function AutoPlayBanner () {
     const interval = setInterval(() => {
         setTranslateX(translate => translate - 100);
     }, 3500);
+    
     return () => clearInterval(interval);
     }, []);
 

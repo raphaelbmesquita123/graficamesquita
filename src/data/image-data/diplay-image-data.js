@@ -5,6 +5,11 @@ import photo4 from './image/photo4.jpg'
 import promo1 from './image-promotion/promo1.jpg'
 import promo2 from './image-promotion/promo2.jpg'
 import promo3 from './image-promotion/promo3.jpg'
+import client1 from './image-clientes/image-client1.png'
+import client2 from './image-clientes/image-client2.png'
+import client3 from './image-clientes/image-client3.png'
+import client4 from './image-clientes/image-client4.png'
+import client5 from './image-clientes/image-client5.png'
 
 export const OUR_HISTORY_IMAGE_DATA = [
       {
@@ -53,5 +58,33 @@ export const PROMO_IMAGE_DATA = [
        id: 3,
         imageUrl: promo3,
         alt: 'promo3'
+  }
+]
+
+export const CLIENT_IMAGE_DATA = [
+  {
+    id: 1,
+    imageUrl: client1,
+    alt: 'client1'
+  },
+  {
+    id: 2,
+    imageUrl: client2,
+    alt: 'client1'
+  },
+  {
+    id: 3,
+    imageUrl: client3,
+    alt: 'client1'
+  },
+  {
+    id: 4,
+    imageUrl: client4,
+    alt: 'client1'
+  },
+  {
+    id: 5,
+    imageUrl: client5,
+    alt: 'client1'
   }
 ]

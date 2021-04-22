@@ -51,12 +51,14 @@
 @media (max-width: 800px){
     .autoImageContainer{
         background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../../data/image-data//image//grafica-mesquita2.jpg) ;
-        background-size: auto;
     }
 }
 
 
 @media (max-width: 550px){
+    .autoImageContainer{
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../../data/image-data//image//grafica-mesquita3.jpg) ;
+    }
     .topAutoImage > div{
         width: 90%;
         top: 45%;

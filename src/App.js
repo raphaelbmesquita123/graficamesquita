@@ -7,6 +7,7 @@ import AutoPlayBanner from './components/auto-banner/auto-banner'
 import StepByStep from './containers/step-by-step/step-by-step.component'
 import OurHistory from './containers/our-history/our-history.container'
 import ContactForm from './containers/contact-form/contact-form.container'
+import Clients from './containers/clients/clients.container'
 
 import './App.css';
 
@@ -17,10 +18,11 @@ function App() {
       <StickMenu />
       <TopImageContainer />
       <MessageContainer />
-      <AutoPlayBanner />
       <Jobs />
+      <AutoPlayBanner />
       <StepByStep />
       <OurHistory />
+      <Clients />
       <ContactForm />
     </div>
   );

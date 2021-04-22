@@ -8,7 +8,7 @@ function Clients () {
     useEffect(() => {
         const interval = setInterval(() =>{
             setSlideImage(slide => slide + 0.1)
-            console.log(slideImage)
+
         }, 20)
         return () => clearInterval(interval)
     }, [])

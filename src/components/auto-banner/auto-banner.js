@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { PROMO_IMAGE_DATA } from '../../data/image-data/diplay-image-data'
+import { PROMO_IMAGE_DATA } from '../../data/diplay-image-data'
 import './auto-banner.style.css'
 
 

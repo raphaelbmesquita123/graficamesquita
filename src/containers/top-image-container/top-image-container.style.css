@@ -6,7 +6,8 @@
     min-width: 320px;
     background-color: rgb(0, 0, 0); 
     background-color: black;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../../data/image-data//image//grafica-mesquita1.jpg) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url(../../image-data/image-TopImage/grafica-mesquita.jpg);
     background-position: center;
     background-size: cover;
     height: 90vh
@@ -43,21 +44,24 @@
 
 @media (max-width: 1000px){
     .autoImageContainer{
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../../data/image-data//image//grafica-mesquita1.jpg) ;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+        url(../../image-data/image-TopImage/grafica-mesquita1.jpg);
     }
 
 }
 
 @media (max-width: 800px){
     .autoImageContainer{
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../../data/image-data//image//grafica-mesquita2.jpg) ;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+        url(../../image-data/image-TopImage/grafica-mesquita2.jpg);
     }
 }
 
 
 @media (max-width: 600px){
     .autoImageContainer{
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../../data/image-data//image//grafica-mesquita3.jpg) ;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+        url(../../image-data/image-TopImage/grafica-mesquita3.jpg);
     }
     .topAutoImage > div{
         width: 90%;

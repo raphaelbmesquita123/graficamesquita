@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { CLIENT_IMAGE_DATA } from '../../data/image-data/diplay-image-data'
+import { CLIENT_IMAGE_DATA } from '../../data/diplay-image-data'
 import './clients.style.css'
 
 function Clients () {

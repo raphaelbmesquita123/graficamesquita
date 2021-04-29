@@ -1,15 +1,17 @@
-import photo1 from './image/photo1.jpeg'
-import photo2 from './image/photo2.jpeg'
-import photo3 from './image/photo3.jpeg'
-import photo4 from './image/photo4.jpg'
-import promo1 from './image-promotion/promo1.jpg'
-import promo2 from './image-promotion/promo2.jpg'
-import promo3 from './image-promotion/promo3.jpg'
-import client1 from './image-clientes/image-client1.png'
-import client2 from './image-clientes/image-client2.png'
-import client3 from './image-clientes/image-client3.png'
-import client4 from './image-clientes/image-client4.png'
-import client5 from './image-clientes/image-client5.png'
+import photo1 from '../image-data/image-ourHistory/photo1.jpeg'
+import photo2 from '../image-data/image-ourHistory/photo2.jpeg'
+import photo3 from '../image-data/image-ourHistory/photo3.jpeg'
+import photo4 from '../image-data/image-ourHistory/photo4.jpg'
+
+import promo1 from '../image-data/image-promotion/promo1.jpg'
+import promo2 from '../image-data/image-promotion/promo2.jpg'
+import promo3 from '../image-data/image-promotion/promo3.jpg'
+
+import client1 from '../image-data/image-clientes/image-client1.png'
+import client2 from '../image-data/image-clientes/image-client2.png'
+import client3 from '../image-data/image-clientes/image-client3.png'
+import client4 from '../image-data/image-clientes/image-client4.png'
+import client5 from '../image-data/image-clientes/image-client5.png'
 
 export const OUR_HISTORY_IMAGE_DATA = [
       {
